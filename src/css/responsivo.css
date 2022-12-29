@@ -1,0 +1,46 @@
+@media (max-width: 375px){
+    .cartao{
+        height: 95vh;
+    }
+
+    .nome{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .cargo{
+        padding: 10px;
+        text-align: center;
+    }
+
+    #informacao-sobre-mim{
+        padding: 0;   
+    }
+
+    .informacao.selecionada{
+        padding: 0;
+        height: 100%;
+    }
+
+    .descricao{
+        padding: 0;
+    }
+    .texto{
+        width: 250px;
+        height: 280px;
+    }
+
+    .redes-sociais{
+        gap: 0;
+    }
+}
+
+@media (max-width: 321px){
+    .texto{
+        /* width: 250px; */
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

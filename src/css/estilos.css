@@ -1,0 +1,158 @@
+body{
+    max-height: 90vh;
+    padding: 30px;
+    background-image: url(../imagens/background.gif);
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao{
+    background-color: #000;
+    width: 390px;
+    border: 3px solid #EF3DF2;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 4px 4px 4px #1F1659;
+   
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.cartao .minhas-informacoes img{
+    border:  4px solid #05C7F2;
+    transition: all 0.8s;
+    border-radius: 50%;
+}
+
+.cartao .minhas-informacoes img:hover{
+    border-radius: 20%;
+}
+
+.cartao .minhas-informacoes .nome{
+    font-size: 36px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-size: 26px;
+    /* text-shadow: 2px 2px 2px rgba(153, 205, 50, 0.411); */
+    text-shadow: 2px 2px 2px #05daf28c;
+}
+
+.conteudo{
+    margin-top: 10px;
+}
+
+.conteudo .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    /* transition: background-color 0.4s ease-in-out; */
+}
+
+.conteudo .abas .aba.selecionada{
+    background-color: #262626;
+}
+
+.conteudo .informacoes-abas{
+    background-color: #262626;
+}
+
+.abas .aba:hover{
+    background-color: gray;
+}
+
+.conteudo .abas img{
+    width: 30px;
+
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 0px;
+    display: none; /*as informações irão sumir */
+}
+
+.informacoes-abas .informacao.selecionada{
+    display: block; /*apenas mostrará as informações da aba selecionada(Sobre) */
+    padding: 10px; /*espaçamento para a barra de rolagem do conteúdo da descrição */
+
+}
+
+.conteudo .sub-titulo{
+    padding-top: 5px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+.conteudo .informacoes-abas .informacao .descricao{
+    max-height: 180px;
+    padding: 0px 20px 0;
+    text-align: justify;
+    overflow-y: auto; /*o elemento irá se comprimir dentro de sua area, gerando um scroll para o texto ser lido*/
+}
+
+.conteudo .descricao strong{
+    color: #05DBF2;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-height: 180px;
+}
+
+.redes-sociais a{
+    display: block;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.7s ease-in-out;
+}
+
+.redes-sociais a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.redes-sociais .instagram{
+    background-image: linear-gradient(#2F96E5, #734BBC,#B833A8, #E74953, #F87C2A,#FDC660 );
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.redes-sociais .linkedin{
+    background-color: #1d87bd;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.redes-sociais .github{
+    background-color: gray;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
