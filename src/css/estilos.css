@@ -34,13 +34,9 @@ body{
 
 .cartao .minhas-informacoes img{
     border:  4px solid #05C7F2;
-    transition: all 0.8s;
     border-radius: 50%;
 }
 
-.cartao .minhas-informacoes img:hover{
-    border-radius: 20%;
-}
 
 .cartao .minhas-informacoes .nome{
     font-size: 36px;
