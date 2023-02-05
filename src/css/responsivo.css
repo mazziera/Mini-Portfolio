@@ -30,7 +30,13 @@
         height: 280px;
     }
 
+    h3{
+        margin: 0px;
+    }
+
     .redes-sociais{
+        width: 100%;
+
         gap: 0;
     }
 }
