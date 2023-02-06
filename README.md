@@ -23,6 +23,6 @@ Projeto mini-portfolio: em andamento 🚧
 
 # Dificuldades ⚔
 
-<p>Tive dificuldade moderada com flexbox, pois não compreendia muito bem o conceito deste display e suas propriedades.</p>
-<p>A responsividade foi trabalhosa, pois é necessário que o layout seja funcional em todos os tipos de dispositivos. A tecnologia Media Queries facilitou muito o processo </p>
-Javascript foi díficil de compreender de início, pois não estava familiarizado com a sintaxe e estrutura desta linguagem.
+<p>Tive dificuldade moderada com flexbox, pois não compreendia muito bem o conceito deste display e suas propriedades;</p>
+<p>A responsividade foi trabalhosa, pois é necessário que o layout seja funcional em todos os tipos de dispositivos. A tecnologia Media Queries facilitou muito o processo; </p>
+<p>Javascript foi díficil de compreender de início, pois não estava familiarizado com a sintaxe e estrutura desta linguagem.</p>
