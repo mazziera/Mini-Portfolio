@@ -6,7 +6,7 @@ Projeto foi criado como desafio proposto no evento Dev em Dobro, com o intuito d
 <img src="./mini-portfolio-mobile.gif" alt="gif porfolio em mobile">
 
 
-Alguns métodos utilizados no projeto: HTML Semântico; Responsividade e Javascript;
+Alguns métodos utilizados no projeto: HTML Semântico; Flexbox + Responsividade e Javascript;
 
 # <strong>Status</strong> 🎯
 
