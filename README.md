@@ -1,6 +1,6 @@
 # <strong>Sobre e Objetivo</strong> 🎯
 
-Projeto foi criado como desafio proposto no evento Dev em Dobro, com o intuito de criar um mini-portfolio pessoal, onde falo sobre mim e mostro minhas redes sociais e de aplicar os conceitos aprendidos sobre HTML e CSS intermediários e Javascript básico.
+Projeto foi criado como desafio proposto no evento Dev em Dobro, com o intuito de criar um mini-portfolio pessoal, onde falo sobre mim e mostro minhas redes sociais e de aplicar os conceitos aprendidos sobre HTML e CSS avançados e Javascript básico.
 <img src="./mini-portfolio-desktop.gif" alt="gif porfolio em desktop">
 
 <img src="./mini-portfolio-mobile.gif" alt="gif porfolio em mobile">
